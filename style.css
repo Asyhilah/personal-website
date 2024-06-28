@@ -1,0 +1,169 @@
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: #f1becfd3;
+    color: #5f3131;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.home-content {
+    max-width: 800px;
+}
+
+.home-content h1 {
+    font-size: 62px;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 42px;
+    color: #745b5b;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+.image img{
+    border-radius: 30%;
+    width: 200%;
+    height: 190%;
+}
+
+/* Specific style for the "Family" page */
+
+.fam-cont {
+    width: 100%;
+    min-height: 150vh;
+    background: #ebcbcbf1;
+    color: #580505;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100px;
+}
+  
+.table, th, td {
+    border: 1px solid #817f9c;
+    text-align: left;
+    font-size: 15px;
+    padding: 40px;
+    
+}
+
+.table, th, caption{
+    text-align: center;
+}
+
+.table :nth-child(even) {
+    background-color: #817f9c;
+}
+
+.family-img img{
+    border-radius: 20%;
+    width:100%;
+    height:100%;
+}
+
+/* family memory */
+
+.title-cont{
+    font-size: 35px;
+    font-family: monospace;
+    width: 100%;
+    min-height: 10vh;
+    padding: 30px 12% 0;
+}
+
+.fam-img1 img{
+   max-width:100%;
+   display:block;
+}
+.fam-img2 img{
+  max-width:100%;
+  display:block;
+}
+.fam-img3 img{
+  max-width:100%;
+  display: block;
+}
+.fam-img4 img{
+  max-width:100%;
+  display:block;
+}
+.fam-img5 img{
+  max-width:100%;
+  display:block;
+}
+.fam-img6 img{
+  max-width:100%;
+  display:block;
+}
+
+.memory {
+    width: 100%;
+    margin-inline: auto;
+}
+
+.memory {
+    display: grid;
+    background: #ebcbcbf1;
+    color: #580505;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 0;
+}
+
+.fam-img1 {
+    border: 3px solid #580505;
+    border-radius: 6px;
+    padding: 1rem;
+   
+}
+
+.fam-img2 {
+    border: 3px solid #580505;
+    border-radius: 6px;
+    padding: 1rem;
+   
+}
+
+.fam-img3 {
+    border: 3px solid #580505;
+    border-radius: 6px;
+    padding: 1rem;
+    
+}
+
+.fam-img4 {
+    border: 3px solid #580505;
+    border-radius: 6px;
+    padding: 1rem;
+    
+}
+
+.fam-img5 {
+    border: 3px solid #580505;
+    border-radius: 6px;
+    padding: 1rem;
+   
+}
+
+.fam-img6 {
+    border: 3px solid #580505;
+    border-radius: 6px;
+    padding: 1rem;
+    
+}
+    
